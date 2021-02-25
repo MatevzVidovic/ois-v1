@@ -5,6 +5,7 @@ public class Gravitacija {
 	public static void main (String[] args) {
 		System.out.print("OIS je zakon!");
 	}
+
 	
 	private static double gravPospesek(double nadmorskaVisina) {
 		
@@ -12,4 +13,13 @@ public class Gravitacija {
 		
 		return pospesek;
 	}
+
+
+	public static void izpis(double nadmorskaVisina, double gravitacijskiPospesek) {
+		
+		System.out.println(nadmorskaVisina);
+		System.out.println(gravitacijskiPospesek);
+	}
+
+
 }
